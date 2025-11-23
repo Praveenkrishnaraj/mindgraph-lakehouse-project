@@ -1,6 +1,39 @@
+# -----------------------
+# Python / FastAPI
+# -----------------------
 fastapi_app/.venv/
 fastapi_app/__pycache__/
 __pycache__/
 *.pyc
-*.log
+*.pyo
+*.pyd
+
+# -----------------------
+# Data files (should NOT be in Git)
+# -----------------------
+tmp_raw/
+storage/
+fastapi_app/data/
+minio/
+winutils-master/
+winutils-master.zip
+
+# -----------------------
+# Editor & OS files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Docker ignore artifacts
+# -----------------------
+fastapi_app/.dockerignore.dockerfile
+
+# -----------------------
+# Test scripts not needed in submission
+# -----------------------
+test_download.py
+ingest_full.py
+
+# Environment files
 .env
