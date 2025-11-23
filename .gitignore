@@ -1,0 +1,6 @@
+fastapi_app/.venv/
+fastapi_app/__pycache__/
+__pycache__/
+*.pyc
+*.log
+.env
