@@ -11,7 +11,7 @@ Everything runs locally through Docker Compose.
 
 Here’s the basic flow of the project:
 
-```
+
 ![Architecture diagram](architecture.png)
 
 
