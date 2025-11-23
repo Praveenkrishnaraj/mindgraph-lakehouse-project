@@ -12,19 +12,8 @@ Everything runs locally through Docker Compose.
 Here’s the basic flow of the project:
 
 ```
-FastAPI --> Airflow DAG --> MinIO (raw layer)
-                                 |
-                                 v
-                              Spark
-                                 |
-                                 v
-                     Iceberg tables (transformed)
-                                 |
-                                 v
-                     Fact / Dimension tables (golden layer)
-```
+![Architecture diagram](architecture.png)
 
-Each component runs in its own container (FastAPI, Spark, Airflow, MinIO).
 
 ---
 
